@@ -5,7 +5,7 @@ body {
 }
 
 #es-loreal.es-loreal {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.2;
@@ -23,7 +23,7 @@ body {
 #es-loreal.es-loreal h3,
 #es-loreal.es-loreal h4,
 #es-loreal.es-loreal h5 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #1d1d1b;
 }
 #es-loreal.es-loreal .es-kv__img {
@@ -119,6 +119,9 @@ body {
   display: block;
   margin: 0 auto;
 }
+#es-loreal.es-loreal .es-kv__img--mobile {
+  margin-bottom: 10px;
+}
 #es-loreal.es-loreal .es-kv__img--desktop {
   display: none;
 }
@@ -211,7 +214,8 @@ body {
   font-size: 20px;
   font-weight: 700;
   text-align: center;
-  text-shadow: 0 0 20px #fff, 0 0 20px #ffffff, 0 0 20px #ffffff, 0 0 20px #ffffff;
+  text-shadow: 0 0 20px #fff, 0 0 20px #ffffff, 0 0 20px #ffffff,
+    0 0 20px #ffffff;
 }
 #es-loreal.es-loreal .es-benefits__single:hover .es-benefits__img--bg {
   transform: scale(1.1);
@@ -275,7 +279,7 @@ body {
   color: inherit;
   font-family: inherit;
   font-weight: inherit;
-  font-size: 13px;
+  font-size: 14px;
   text-align: center;
 }
 #es-loreal.es-loreal .es-benefits__text {
@@ -439,7 +443,8 @@ body {
   font-size: 11px;
   font-weight: 700;
 }
-#es-loreal.es-loreal .es-shades__group-title, #es-loreal.es-loreal .es-shades__group-subtitle {
+#es-loreal.es-loreal .es-shades__group-title,
+#es-loreal.es-loreal .es-shades__group-subtitle {
   font-size: 11px;
   font-weight: 700;
   min-height: 30px;
@@ -732,7 +737,7 @@ body {
   #es-loreal.es-loreal .es-shades__group-subtitle::after,
   #es-loreal.es-loreal .es-shades__group-title::after {
     position: absolute;
-    content: "";
+    content: '';
     border-right: 1px solid black;
     height: 75%;
     top: 0;
@@ -809,7 +814,7 @@ body {
     font-size: 24px;
   }
   #es-loreal.es-loreal .es-benefits__banner {
-    background: url("../images/benefit-bg.png") no-repeat center;
+    background: url('../images/benefit-bg.png') no-repeat center;
     background-size: cover;
     display: flex;
     flex-flow: row;
@@ -914,4 +919,4 @@ body {
     opacity: 1;
     transform: translateX(0);
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
